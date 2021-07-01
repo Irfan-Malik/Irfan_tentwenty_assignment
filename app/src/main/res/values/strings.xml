@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Irfan_tentwenty_assignment</string>
+    <string name="book">Book</string>
+    <string name="watch_trailer">Watch Trailer</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="network_failure">Network Failure</string>
+    <string name="conversion_error">Conversion Error</string>
+    <string name="spinner_location_title">Location</string>
+
+
+    <string-array name="location_array">
+        <item>IslamAbad</item>
+        <item>Lahore</item>
+        <item>Multan</item>
+        <item>Karachi</item>
+    </string-array>
+
+    <string-array name="cenema_array">
+        <item>Modern Times</item>
+        <item>Black Panther</item>
+        <item>Citizen Kane</item>
+        <item>The Wizard of Oz</item>
+    </string-array>
+
+    <string-array name="seat_array">
+        <item>Seat 1</item>
+        <item>Seat 2</item>
+        <item>Seat 3</item>
+        <item>Seat 4</item>
+    </string-array>
+</resources>

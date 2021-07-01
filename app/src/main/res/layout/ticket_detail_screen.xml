@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dip"
+        android:id="@+id/linear_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:text="Location:"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:id="@+id/spinnerLocation"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:textSize="15sp"
+            android:background="@drawable/spinner_back"
+            android:prompt="@string/spinner_location_title"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dip"
+        android:id="@+id/cenemaLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:text="Cenima:"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:id="@+id/spinnerCenema"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:textSize="15sp"
+            android:background="@drawable/spinner_back"
+            android:prompt="@string/spinner_location_title"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dip"
+        android:id="@+id/seat_layout"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:text="Seat number:"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:id="@+id/spinnerSeat"
+            android:layout_width="fill_parent"
+            android:gravity="center_vertical"
+            android:textSize="15sp"
+            android:layout_height="40dp"
+            android:background="@drawable/spinner_back"
+            android:prompt="@string/spinner_location_title"
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnBookNow"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        style="@style/PrimaryButtonStyle"
+        android:backgroundTint="@null"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_margin="35dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Go Back"
+        />
+
+</LinearLayout>
